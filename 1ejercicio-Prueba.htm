@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1º ejercicio</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+dineroCofla = prompt("cuanto dinero tiene Cofla?");
+dineroRoberto = prompt("cuanto dinero tiene Roberto?");
+dineroPedro = prompt("cuanto dinero tiene Pedro?");
+
+dineroCofla = parseInt(dineroCofla); // para convertir los numeros enteros"3"" en numeros 3
+
+if (dineroCofla >= 0.6 && dineroCofla <1 ){
+    alert("Copla, comprate el helado de agua")
+    alert("y te sobran" + (dineroCofla -0.6))
+}
+else if(dineroCofla >= 1 && dineroCofla < 1.6){
+    alert("Copla, comprate el helado de heladix")
+}
+else if(dineroCofla >= 1.7 && dineroCofla < 1.8){
+    alert("Copla, comprate el helado de helardo")
+}
+else if(dineroCofla >= 1.8 && dineroCofla < 2.9){
+    alert("Copla, comprate el helado de oreo")
+} else{
+    alert("Copla, lo siento, no te llega")
+    };
+
+
+
+    </script>
+</body>
+</html>
